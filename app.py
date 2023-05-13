@@ -11,7 +11,7 @@ from streamlit_image_comparison import image_comparison
 import glob
 import random
 
-images = glob.glob('/home/abhijeetpatil/modern_pathology/samples/*.jpeg')
+images = glob.glob('samples/*.jpeg')
 
 IMAGE_TO_URL = {
     "sample_image_1": "https://user-images.githubusercontent.com/34196005/143309873-c0c1f31c-c42e-4a36-834e-da0a2336bb19.jpg",
